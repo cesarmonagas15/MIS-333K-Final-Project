@@ -1,6 +1,3 @@
-# MIS-333K-Final-Project
-ASP.NET MVC Web Application in C#
-
 # Bevo Theaters - Full-Stack Web Application
 
 ## Overview
