@@ -53,5 +53,5 @@ This application was developed as a collaborative effort for the MIS 333K course
 This project was developed as part of an academic course and is currently not open for external contributions. However, suggestions and feedback are welcome!
 
 ## Acknowledgments
-MIS 333K Course Staff: For their guidance and support throughout the project.
-Collaborators: A big thank you to my teammates for their dedication and teamwork.
+- MIS 333K Course Staff: For their guidance and support throughout the project.
+- Collaborators: A big thank you to my teammates Fernando Rodriguez, Michelle Ivbievbiokun, and Krithika Elango for their dedication and teamwork.
