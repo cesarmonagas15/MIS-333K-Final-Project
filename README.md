@@ -34,3 +34,24 @@ This application was developed as a collaborative effort for the MIS 333K course
 - **Tools**:
   - Visual Studio for development
   - GitHub for version control
+
+
+## Usage
+- **Users** :
+  - Sign up or log in to explore movie listings and purchase tickets.
+  - Redeem reward points for ticket discounts.
+- **Admins**:
+  - Manage movie listings, schedules, and other theater operations.
+  - Generate and review sales reports for analysis.
+## Project Structure
+- Controllers/: Manages HTTP requests and ties the View and Model layers.
+- Models/: Defines data structures and business logic.
+- Views/: Contains Razor templates for rendering the UI.
+- wwwroot/: Stores static assets such as CSS, JavaScript, and images.
+
+## Contribution
+This project was developed as part of an academic course and is currently not open for external contributions. However, suggestions and feedback are welcome!
+
+## Acknowledgments
+MIS 333K Course Staff: For their guidance and support throughout the project.
+Collaborators: A big thank you to my teammates for their dedication and teamwork.
