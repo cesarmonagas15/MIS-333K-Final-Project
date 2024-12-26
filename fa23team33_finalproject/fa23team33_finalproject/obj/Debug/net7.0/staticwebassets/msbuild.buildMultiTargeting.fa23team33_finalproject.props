@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\fa23team33_finalproject.props" />
+</Project>

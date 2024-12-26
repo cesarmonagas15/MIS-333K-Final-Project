@@ -1,0 +1,62 @@
+﻿<Properties StartupConfiguration="{FDD0E135-D2A7-4E0E-BB54-9A24276E9D39}|http">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.fa23team33__finalproject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="fa23team33_finalproject/Views/Home/DetailedSearch.cshtml">
+    <Files>
+      <File FileName="fa23team33_finalproject/Models/Review.cs" />
+      <File FileName="fa23team33_finalproject/Controllers/MovieController.cs" />
+      <File FileName="fa23team33_finalproject/Models/Movie.cs" />
+      <File FileName="fa23team33_finalproject/Controllers/ScheduleController.cs" />
+      <File FileName="fa23team33_finalproject/Controllers/TransactionController.cs" Line="1" Column="1" />
+      <File FileName="fa23team33_finalproject/Seeding/SeedMovies.cs" />
+      <File FileName="fa23team33_finalproject/Controllers/ReviewController.cs" />
+      <File FileName="fa23team33_finalproject/Views/Movie/Create.cshtml" />
+      <File FileName="fa23team33_finalproject/Views/Movie/Delete.cshtml" />
+      <File FileName="fa23team33_finalproject/Views/Movie/Details.cshtml" />
+      <File FileName="fa23team33_finalproject/Controllers/RoleAdminController.cs" />
+      <File FileName="fa23team33_finalproject/Seeding/SeedCustomers.cs" />
+      <File FileName="fa23team33_finalproject/Models/Schedule.cs" />
+      <File FileName="fa23team33_finalproject/Seeding/SeedSchedule.cs" />
+      <File FileName="fa23team33_finalproject/Seeding/SeedTransactions.cs" />
+      <File FileName="fa23team33_finalproject/Models/Genre.cs" />
+      <File FileName="fa23team33_finalproject/Controllers/HomeController.cs" />
+      <File FileName="fa23team33_finalproject/Controllers/TransactionDetailController.cs" />
+      <File FileName="fa23team33_finalproject/Models/ViewModels/SearchViewModel.cs" />
+      <File FileName="fa23team33_finalproject/Views/Home/Details.cshtml" Line="1" Column="1" />
+      <File FileName="fa23team33_finalproject/Views/Home/DetailedSearch.cshtml" Line="14" Column="76" />
+      <File FileName="fa23team33_finalproject/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="fa23team33_finalproject/Models/AppDateTime.cs" />
+      <File FileName="fa23team33_finalproject/Models/ViewModels/RoleViewModels.cs" />
+      <File FileName="fa23team33_finalproject/Models/ViewModels/AccountViewModels.cs" />
+      <File FileName="fa23team33_finalproject/Controllers/GenreController.cs" />
+      <File FileName="fa23team33_finalproject/Models/Price.cs" />
+      <File FileName="fa23team33_finalproject/Seeding/SeedGenre.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="fa23team33_finalproject" expanded="True">
+            <Node name="fa23team33_finalproject" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DAL" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

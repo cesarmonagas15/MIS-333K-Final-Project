@@ -1,0 +1,66 @@
+﻿@model fa23team33_finalproject.Models.TransactionDetail
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>TransactionDetail</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TransactionDetailID" />
+            <div class="form-group">
+                <label asp-for="Movie" class="control-label"></label>
+                <input asp-for="Movie" class="form-control" />
+                <span asp-validation-for="Movie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Seat" class="control-label"></label>
+                <input asp-for="Seat" class="form-control" />
+                <span asp-validation-for="Seat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SeniorDiscount" class="control-label"></label>
+                <input asp-for="SeniorDiscount" class="form-control" />
+                <span asp-validation-for="SeniorDiscount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TuesdayDiscount" class="control-label"></label>
+                <input asp-for="TuesdayDiscount" class="form-control" />
+                <span asp-validation-for="TuesdayDiscount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateTime" class="control-label"></label>
+                <input asp-for="DateTime" class="form-control" />
+                <span asp-validation-for="DateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Theater" class="control-label"></label>
+                <select asp-for="Theater" class="form-control"></select>
+                <span asp-validation-for="Theater" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TicketPrice" class="control-label"></label>
+                <input asp-for="TicketPrice" class="form-control" />
+                <span asp-validation-for="TicketPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PopcornPoints" class="control-label"></label>
+                <input asp-for="PopcornPoints" class="form-control" />
+                <span asp-validation-for="PopcornPoints" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

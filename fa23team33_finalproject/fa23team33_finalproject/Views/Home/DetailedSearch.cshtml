@@ -1,0 +1,60 @@
+﻿@model fa23team33_finalproject.Models.SearchViewModel
+
+@{
+    ViewData["Title"] = "DetailedSearch";
+}
+
+<h1>Detailed Search</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="get" action="/Home/DisplaySearchResults">
+            <div class="form-group">
+                <label asp-for="SearchTitle" class="control-label"></label>
+                <input asp-for="SearchTitle" class="form-control" />
+                <span asp-validation-for="SearchTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SearchTagline" class="control-label"></label>
+                <input asp-for="SearchTagline" class="form-control" />
+                <span asp-validation-for="SearchTagline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SelectedGenreId" class="control-label"></label>
+                @Html.DropDownListFor(model => model.SelectedGenreId, (SelectList)ViewBag.AllGenres, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label asp-for="SearchReleaseYear" class="control-label"></label>
+                <input asp-for="SearchReleaseYear" class="form-control" />
+                <span asp-validation-for="SearchReleaseYear" class="text-danger"></span>
+            </div>
+            <div>
+                <input asp-for="SelectedMPAARating" class="form-control" />
+                <span asp-validation-for="SelectedMPAARating" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SearchRating" class="control-label"></label>
+                <input asp-for="SearchRating" class="form-control" />
+                <span asp-validation-for="SearchRating" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SearchType" class="control-label"></label><br />
+                <input type="radio" class="radio" asp-for="SearchType" value="@SearchType.GreaterThan" /> Greater Than<br />
+                <input type="radio" class="radio" asp-for="SearchType" value="@SearchType.LessThan" /> Lesser Than<br />
+            </div>
+            <div class="form-group">
+                <label asp-for="SearchActors" class="control-label"></label>
+                <input asp-for="SearchActors" class="form-control" />
+                <span asp-validation-for="SearchActors" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

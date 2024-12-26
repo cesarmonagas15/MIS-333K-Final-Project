@@ -1,0 +1,70 @@
+﻿@model fa23team33_finalproject.Models.Transaction
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<h1>Checkout</h1>
+
+<div>
+    <h4>Transaction</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TransactionNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TransactionNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TransactionStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TransactionStatus)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TransactionDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TransactionDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TicketCount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TicketCount)
+        </dd>
+        
+    </dl>
+
+    <form asp-action="Checkout" asp-controller="Transaction" method="post" asp-route-id="@Model?.TransactionID">
+        <div>
+            <h4>Transaction</h4>
+            <hr />
+            <dl class="row">
+                <!-- Display other transaction details -->
+                <!-- ... -->
+            </dl>
+        </div>
+
+        <div>
+            <label for="usePopcornPoints">Use Popcorn Points:</label>
+            <input type="checkbox" id="usePopcornPoints" name="usePopcornPoints" value="true">
+            <input type="hidden" name="transactionId" value="@Model.TransactionID"><br/>
+            
+        </div>
+
+        <div>
+            <label for="usePopcornPoints">Is this a gift? :</label>
+            <input type="checkbox" id="usePopcornPoints" name="usePopcornPoints" value="true">
+            <input type="hidden" name="transactionId" value="@Model.TransactionID"><br />
+
+        </div>
+
+        <button type="submit">Next</button>
+    </form>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.TransactionID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
